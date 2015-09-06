@@ -6,7 +6,7 @@ This is a debian image derived from the [official debian repository](https://hub
 Differences to official debian image
 ------------------------------------
 
-- Use `httpredir.debian.org` mirror
+- Use `ftp.de.debian.org` mirror
 - Use `main`, `contrib` and `non-free` repositories
 - Avoid installation of locales, man pages and doc
 - Install additional tools 
