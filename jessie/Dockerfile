@@ -10,6 +10,7 @@ RUN apt-get -y update && \
     apt-get -y install \
         localepurge \
         curl \
-        nano
+        nano \
+        git
 
 ONBUILD RUN ~/.docker-build-scripts/cleanup

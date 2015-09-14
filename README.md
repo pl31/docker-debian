@@ -12,6 +12,7 @@ Differences to official debian image
 - Install additional tools 
   * `nano`
   * `curl`
+  * `git`
 - Call cleanup script `/root/.docker-build-scripts/cleanup` after build
   * remove apt caches
   * remove man pages
