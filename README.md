@@ -23,5 +23,5 @@ Images and Tags
 
 Following images are build on [docker hub](https://hub.docker.com/r/pl31/debian/tags/).
 
-- `pl31/debian:jessie`
+- `pl31/debian:jessie` (`latest`)
 - `pl31/debian:stretch`
