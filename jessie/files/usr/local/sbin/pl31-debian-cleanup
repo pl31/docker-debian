@@ -4,10 +4,6 @@ set -e
 
 echo "---> Running cleanup script..."
 
-# clean apt and remove downloaded lists
-apt-get -y autoremove
-rm -rf /var/lib/apt/lists/*
-
 # remove doc, except copyright
 find /usr/share/doc/*/* -not -name "copyright" -exec rm -rf {} \; || true
 rm -rf /usr/share/man/*
