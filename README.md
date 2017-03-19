@@ -1,27 +1,29 @@
 docker-debian
 =============
 
-This is a debian image derived from the [official debian repository](https://hub.docker.com/_/debian/).
+This repository contains _Dockerfiles_ for docker images based on plain debian.
+All software installed is from original debian packages.
+Find the software version in the
+[debian package search](https://www.debian.org/distrib/packages#search_packages).
 
-Differences to official debian image
-------------------------------------
+Images
+------
 
-- Use `ftp.de.debian.org` mirror
-- Use `main`, `contrib` and `non-free` repositories
-- Avoid installation of locales, man pages and doc
-- Install additional tools 
-  * `nano`
-  * `curl`
-  * `git`
-- Call cleanup script `/root/.docker-build-scripts/cleanup` after build
-  * remove apt caches
-  * remove man pages
-  * remove docs
+Find below a list of images. If you use one of those images, please assure
+that it is starred on [docker hub](https://hub.docker.com/u/pl31/).
+Otherwise it might get deleted at the next maintenance schedule.
 
-Images and Tags
----------------
-
-Following images are build on [docker hub](https://hub.docker.com/r/pl31/debian/tags/).
-
-- `pl31/debian:jessie` (`latest`)
-- `pl31/debian:stretch`
+- stretch
+  - [base image](stretch/debian/README.md)
+  - [iceweasel](stretch/debian-iceweasel/README.md)
+  - [mongodb](stretch/debian-mongodb/README.md)
+  - [rabbitmq](stretch/debian-rabbitmq/README.md)
+  - [redis](stretch/debian-redis/README.md)
+  - [wine](stretch/debian-wine/README.md)
+- jessie
+  - [base image](jessie/debian/README.md)
+  - [mongodb](jessie/debian-mongodb/README.md)
+  - [rabbitmq](jessie/debian-rabbitmq/README.md)
+  - [redis](jessie/debian-redis/README.md)
+  - [texlive](jessie/debian-texlive/README.md)
+  - [tinyproxy](jessie/debian-tinyproxy/README.md)
