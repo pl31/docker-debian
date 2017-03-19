@@ -14,16 +14,16 @@ that it is starred on [docker hub](https://hub.docker.com/u/pl31/).
 Otherwise it might get deleted at the next maintenance schedule.
 
 - stretch
-  - [base image](stretch/debian/README.md)
-  - [iceweasel](stretch/debian-iceweasel/README.md)
-  - [mongodb](stretch/debian-mongodb/README.md)
-  - [rabbitmq](stretch/debian-rabbitmq/README.md)
-  - [redis](stretch/debian-redis/README.md)
-  - [wine](stretch/debian-wine/README.md)
+  - [base image](stretch/debian)
+  - [iceweasel](stretch/debian-iceweasel)
+  - [mongodb](stretch/debian-mongodb)
+  - [rabbitmq](stretch/debian-rabbitmq)
+  - [redis](stretch/debian-redis)
+  - [wine](stretch/debian-wine)
 - jessie
-  - [base image](jessie/debian/README.md)
-  - [mongodb](jessie/debian-mongodb/README.md)
-  - [rabbitmq](jessie/debian-rabbitmq/README.md)
-  - [redis](jessie/debian-redis/README.md)
-  - [texlive](jessie/debian-texlive/README.md)
-  - [tinyproxy](jessie/debian-tinyproxy/README.md)
+  - [base image](jessie/debian)
+  - [mongodb](jessie/debian-mongodb)
+  - [rabbitmq](jessie/debian-rabbitmq)
+  - [redis](jessie/debian-redis)
+  - [texlive](jessie/debian-texlive)
+  - [tinyproxy](jessie/debian-tinyproxy)
