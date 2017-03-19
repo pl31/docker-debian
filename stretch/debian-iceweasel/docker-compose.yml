@@ -1,0 +1,8 @@
+iceweasel:
+  image: pl31/debian-iceweasel:stretch
+  volumes:
+  - $XAUTHORITY:/root/.Xauthority
+  environment:
+  - DISPLAY
+  - XAUTHORITY=/root/.Xauthority
+  net: "host"
