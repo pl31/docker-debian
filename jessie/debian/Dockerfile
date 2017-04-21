@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:jessie-slim
 MAINTAINER Patrick Büch <dh@paco.pl31.de>
 
 ENV DEBIAN_FRONTEND noninteractive

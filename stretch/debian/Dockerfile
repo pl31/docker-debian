@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM debian:stretch-slim
 MAINTAINER Patrick Büch <dh@paco.pl31.de>
 
 ENV DEBIAN_FRONTEND noninteractive
