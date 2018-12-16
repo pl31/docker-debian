@@ -1,6 +1,5 @@
 FROM debian:stretch-slim
 MAINTAINER Patrick Büch <dh@paco.pl31.de>
-LABEL description="Base image for debian with cleanup and tools"
 
 ENV DEBIAN_FRONTEND noninteractive
 
