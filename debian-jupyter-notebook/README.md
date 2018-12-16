@@ -9,12 +9,10 @@ Images and Tags
 Following images are build on [docker hub](https://hub.docker.com/r/pl31/debian-jupyter-notebook/tags/).
 
 - `pl31/debian-jupyter-notebook:stretch` (`latest`)
-- `pl31/debian-jupyter-notebook:buster`
 
 Jupyter versions used can be found here:
 
 - [stretch](https://packages.debian.org/stretch/python3-notebook) (`latest`)
-- [buster](https://packages.debian.org/stretch/python3-notebook)
 
 Run image
 ---------
