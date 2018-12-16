@@ -13,4 +13,4 @@ RUN echo "Europe/Berlin" > /etc/timezone && \
 ENTRYPOINT python3 -m notebook
 
 # expose ports
-EXPOSE 8080
+EXPOSE 8888
