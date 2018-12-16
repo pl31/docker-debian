@@ -7,7 +7,11 @@ RUN echo "Europe/Berlin" > /etc/timezone && \
     apt-get -y update && \
     apt-get -y upgrade && \
     apt-get -y install \
+        python3-pip \
         python3-notebook python3-widgetsnbextension
+
+RUN apt-get -y install python3-requests python3-alembic tox python3-psycopg2 && \
+    pip3 install --no-cache-dir pgcontents
 
 # runtime configuration
 ENTRYPOINT python3 -m notebook --no-browser --no-mathjax --ip=*
