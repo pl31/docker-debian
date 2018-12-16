@@ -10,7 +10,7 @@ RUN echo "Europe/Berlin" > /etc/timezone && \
         python3-notebook python3-widgetsnbextension
 
 # runtime configuration
-ENTRYPOINT python3 -m notebook
+ENTRYPOINT python3 -m notebook --no-browser --no-mathjax --ip=*
 
 # expose ports
 EXPOSE 8888

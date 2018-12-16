@@ -19,4 +19,4 @@ Jupyter versions used can be found here:
 Run image
 ---------
 
-`docker run -i -p 127.0.0.1:8080:8080 -t pl31/debian-jupyter-notebook:stretch`
+`docker run -i -p 127.0.0.1:8888:8888 -t pl31/debian-jupyter-notebook:stretch`
