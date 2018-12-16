@@ -8,6 +8,7 @@ COPY buster.files/ /
 RUN apt-get -y update && \
     apt-get -y upgrade && \
     apt-get -y install \
+        apt-utils \
         localepurge \
         curl \
         nano \
