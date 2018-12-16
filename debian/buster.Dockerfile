@@ -3,7 +3,7 @@ MAINTAINER Patrick Büch <dh@paco.pl31.de>
 
 ENV DEBIAN_FRONTEND noninteractive
 
-COPY files/ /
+COPY buster.files/ /
 
 RUN apt-get -y update && \
     apt-get -y upgrade && \
