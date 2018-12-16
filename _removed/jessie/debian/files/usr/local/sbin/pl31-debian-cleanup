@@ -1,0 +1,16 @@
+#!/bin/sh
+
+set -e
+
+echo "---> Running cleanup script..."
+
+# remove doc, except copyright
+find /usr/share/doc/*/* -not -name "copyright" -exec rm -rf {} \; || true
+rm -rf /usr/share/man/*
+rm -rf /usr/share/groff/*
+rm -rf /usr/share/info/*
+rm -rf /usr/share/lintian/*
+rm -rf /usr/share/linda/*
+rm -rf /usr/share/doc-base/*
+
+echo "---> Running cleanup script...done."

@@ -8,11 +8,13 @@ Images and Tags
 
 Following images are build on [docker hub](https://hub.docker.com/r/pl31/debian-rabbitmq/tags/).
 
-- `pl31/debian-rabbitmq:stretch` (`latest`)
+- `pl31/debian-rabbitmq:jessie` (`latest`)
+- `pl31/debian-rabbitmq:stretch`
 
 Rabbitmq versions used can be found here:
 
-- [stretch](https://packages.debian.org/stretch/rabbitmq-server)  (`latest`)
+- [jessie](https://packages.debian.org/jessie/rabbitmq-server)
+- [stretch](https://packages.debian.org/stretch/rabbitmq-server)
 
 Run image
 ---------
