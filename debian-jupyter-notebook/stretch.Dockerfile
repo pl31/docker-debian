@@ -8,9 +8,12 @@ RUN echo "Europe/Berlin" > /etc/timezone && \
     apt-get -y upgrade && \
     apt-get -y install \
         python3-pip \
-        python3-notebook python3-widgetsnbextension
+        jupyter-notebook jupyter-client jupyter-core \
+        jupyter-nbconvert jupyter-nbformat \
+        jupyter-nbextension-jupyter-js-widgets python3-ipywidgets
 
-RUN apt-get -y install python3-requests python3-alembic tox python3-psycopg2 && \
+RUN apt-get -y install python3-requests python3-alembic python3-psycopg2 \
+    tox python-nose && \
     pip3 install --no-cache-dir pgcontents
 
 # runtime configuration
