@@ -14,7 +14,7 @@ RUN apt-get -y update && \
 RUN pip3 install --no-cache-dir "notebook>4.3,<5"
 
 # add user jupyter to run jupyter
-RUN useradd --create-home jupyter
+RUN useradd --create-home -u 1031 jupyter
 
 # install pgcontents and run it once to test dependencies
 RUN apt-get -y install python3-requests python3-alembic python3-psycopg2 python3-click \
